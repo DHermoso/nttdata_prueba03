@@ -1,11 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sample-service
-  title: Sample Service
+  name: nttdata_prueba03
+  title: Prueba 03
   description: |
-    A service for testing Backstage functionality. Configured for GitHub Actions and
-    Sentry.
+    nttdata_prueba03 nttdata_prueba03 nttdata_prueba03
   labels:
     tier: "3"
   links:
@@ -17,21 +16,21 @@ metadata:
     - js
     - demo
   annotations:
-    github.com/project-slug: RoadieHQ/sample-service
+    # github.com/project-slug: RoadieHQ/sample-service
     # The Sentry organization is stored in the app-config.yaml of the Backstage instance.
-    sentry.io/project-slug: sample-service
-    cloud.google.com/function-ids: projects/roadie-dev-283705/locations/europe-west1/functions/test-fn-1
-    backstage.io/techdocs-ref: dir:.
-    pagerduty.com/service-id: PZDAG59
-    snyk.io/org-name: roadie
-    snyk.io/project-ids: 48315c5b-0326-4b24-b818-60999fe7386e
-    backstage.io/kubernetes-id: sample-service
-    travis-ci.com/repo-slug: RoadieHQ/sample-service
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=sample-service'
-    opsgenie.com/component-selector: sample-service-1
-    qameta.io/allure-project: value
-    newrelic.com/dashboard-guid: 'MzcwMjEwN3xWSVp8REFTSEJPQVJEfGRhOjkwMDk4'
-    sonarqube.org/project-key: RoadieHQ_sample-service
+    # sentry.io/project-slug: sample-service
+    # cloud.google.com/function-ids: projects/roadie-dev-283705/locations/europe-west1/functions/test-fn-1
+    # backstage.io/techdocs-ref: dir:.
+    # pagerduty.com/service-id: PZDAG59
+    # snyk.io/org-name: roadie
+    # snyk.io/project-ids: 48315c5b-0326-4b24-b818-60999fe7386e
+    # backstage.io/kubernetes-id: sample-service
+    # travis-ci.com/repo-slug: RoadieHQ/sample-service
+    # backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=sample-service'
+    # opsgenie.com/component-selector: sample-service-1
+    # qameta.io/allure-project: value
+    # newrelic.com/dashboard-guid: 'MzcwMjEwN3xWSVp8REFTSEJPQVJEfGRhOjkwMDk4'
+    # sonarqube.org/project-key: RoadieHQ_sample-service
 spec:
   type: service
   owner: sample-team
